@@ -7,23 +7,23 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What is an instance variable in Ruby? How is it different from other variables?
 
-  Your answer:
+  Your answer:it begins with a @ and its scope is confined to whatever object it it refering to
 
-  Researched answer:
+  Researched answer: instance variables do not need decleration and it is dynamically appended to an object when it is first refrenced
 
 
 
 2. What is a block in Ruby?
 
-  Your answer:
+  Your answer:it is a way of grouping statements
 
-  Researched answer:
+  Researched answer:it can only appear in the source adjacent to the method call
 
 
 
 3. Ruby has an implicit return. What does that mean?
 
-  Your answer:
+  Your answer:it returns the last executed instruction
 
   Researched answer:
 
@@ -31,15 +31,16 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 4. What is object-oriented programming? How is it different than functional programming?
 
-  Your answer:
+  Your answer:creating objects that contain data and functions where functional programming data can not be held inside of objects
 
-  Researched answer:
+  Researched answer:oop; importance is given to data rather than procedures
+  functional programming; importance is not give to data but to functions. data can only be transformed by creating functions.
 
 
 
 5. What is the difference between a class and an object?
 
-  Your answer:
+  Your answer:a class is the blueprint where objects are created an object is an instance of that specific class
 
   Researched answer:
 
@@ -54,9 +55,9 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 
 ## Looking Ahead: Terms for Next Week
-- PostgreSQL
-- API
-- CRUD
-- Ruby on Rails
-- ORM
-- Active Record
+- PostgreSQL: a highly stable database management system
+- API: application programming interface it allows two applications to communicate to eachother
+- CRUD: create, read, update, delete
+- Ruby on Rails: gives developers a framework providing structure for all the code they write
+- ORM: object relational mapping, programming technique used for converting data between relational databases and object oriented programming languages
+- Active Record: provides an interface and binding between the tables in a relational database
